@@ -1,0 +1,32 @@
+  .menu{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu > li > a{
+    text-decoration: none; 
+    font-weight: 500;
+    font-size:24px;
+    color: #CAFFCC;
+}
+
+.menu > li > a:hover{
+    text-decoration: underline;
+}
+.container_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.image_profile > img{
+    height: 320px;
+    width: 240px;
+}
