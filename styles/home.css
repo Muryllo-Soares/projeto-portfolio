@@ -1,12 +1,14 @@
-
+header{
+  min-width: 100%;
+}
 .menu {
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  max-width:100%;
   justify-content: flex-start;
   gap: 40px;
   list-style: none;
-  padding-left: 100px;
+  padding-left: 150px;
   margin-top: 50px;
 }
 
@@ -29,22 +31,23 @@
 .container_home {
   display: flex;
   flex-direction: row;
+  justify-content:center ;
   align-items: center;
-  gap: 20px;
-  height: 100vh;
+  height: 100%;
 
   
 }
 
 .section_home{
-    padding: 50px; 
+    padding-left:150px; 
 }
 
 .description{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    width: 70%;
+    gap: 20px;
     color: #f6f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
@@ -98,12 +101,15 @@
 .image_profile{
     border: 3px solid #caffcc;
     border-radius: 15px;
+    margin-right: 150px;
+    
+    
 
 }
 .image_profile > img {
-    width: 320px;
-    position: relative;
-    top: 14px;
-    right: 20px;
+    width: 100%;
     border-radius: 15px;
+    position: relative;
+    top: 12px;
+    right: 12px;
 }
