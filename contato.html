@@ -33,9 +33,20 @@
       <section class="section_home">
         <div class="description">
           <h2>Entre em <span>contato</span></h2>
-          <form>
+          <form class="form" action="https://formsubmit.co/muryllo" method="POST">
 
-          </form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="nome" required placeholder="Preencha seu nome">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required placeholder="seuemail@email.com.br">
+            <br>
+            <label for="textarea">Mensagem:</label>
+            <textarea name="message" id="textarea" cols="30" rows="10" placeholder="
+            Sua mensagem..."></textarea>
+
+            <button type="submit">Enviar</button>
+       </form>
         </div>
         <br>
         <div class="image_profile">
