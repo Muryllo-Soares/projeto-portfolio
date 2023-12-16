@@ -19,21 +19,34 @@
     <title>Contato</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="sobre.html">Sobre mim</a></li>
-          <li><a href="habilidades.html" >Habilidades</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="contato.html"  class="ativo">Contato</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav_mobile invisible">
+        <ul class="menu_mobile">
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre mim</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
           <li><a href="contato.html" class="ativo">Contato</a></li>
         </ul>
       </nav>
+
+      <button class="button_menu">
+        <img src="image/menu-hamburgue.png" alt="">
+      </button>
     </header>
     <main class="container_home">
       <section class="section_home">
         <div class="description">
           <h2>Entre em <span>contato</span></h2>
-          <form class="form" action="https://formsubmit.co/muryllo" method="POST">
+          <form class="form" action="https://formsubmit.co/muryllo428@gmail.com" method="POST">
 
             <label for="nome">Nome:</label>
             <input type="text" name="name" id="nome" required placeholder="Preencha seu nome">
@@ -44,6 +57,8 @@
             <label for="textarea">Mensagem:</label>
             <textarea name="message" id="textarea" cols="30" rows="10" placeholder="
             Sua mensagem..."></textarea>
+
+            <input type="hidden" name="_next" value="https://muryllo-soares.github.io/projeto-portfolio/confirmacao.html">
 
             <button type="submit">Enviar</button>
        </form>
@@ -61,5 +76,6 @@
       </div>
       <p>Desenvolvido por <strong>Muryllo</strong> no programa <strong>Alura Include.</strong></p>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

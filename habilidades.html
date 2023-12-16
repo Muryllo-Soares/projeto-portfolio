@@ -19,8 +19,8 @@
     <title>Habilidades</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="sobre.html">Sobre mim</a></li>
@@ -28,6 +28,19 @@
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
+
+      <nav class="nav_mobile invisible">
+        <ul class="menu_mobile">
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre mim</a></li>
+          <li><a href="habilidades.html" class="ativo">Habilidades</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="button_menu">
+        <img src="image/menu-hamburgue.png" alt="">
+      </button>
     </header>
     <main class="container_home">
       <section class="section_home">
@@ -53,5 +66,6 @@
       </div>
       <p>Desenvolvido por <strong>Muryllo</strong> no programa <strong>Alura Include.</strong></p>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
