@@ -255,13 +255,33 @@ footer > p{
   border: 2px solid #6EBF7B;
   border-radius: 10px;
   width: 400px;
-  height: 50px;
+  height: 350px;
   gap: 40px;
   padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.confirmation > button{
+  margin-top: 24px;
+  height: 64px;
+  width: 150px;
+  background-color: #caffcc;
+  border: 2px solid #6EBF7B;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.confirmation > button > a{
+  text-decoration: none;
+  font-family:'Krona One', sans-serif;
+  color:#1E1E1E;
+  font-size: 20px;
+  font-weight: 500;
+  
 }
 
 @media screen and (max-width: 1000px){
